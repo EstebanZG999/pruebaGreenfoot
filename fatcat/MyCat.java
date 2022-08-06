@@ -24,6 +24,7 @@ public class MyCat extends Cat
         }
         if (isBored() == true){
             dance();
+            sleep(2);
         }
         if (isAlone() == true){
             sleep(4);
